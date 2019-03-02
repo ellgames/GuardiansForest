@@ -1,0 +1,111 @@
+@startuml
+
+namespace EllGames.GF {
+  namespace Exception {
+    class ExceptionHandler {
+      +ThrowException(Meta.ExceptionType)
+    }
+  }
+
+  namespace Profile {
+    class PlayerProfile {
+      +MP : int
+      +DecreaseMP(int amount)
+    }
+  }
+
+  namespace DB {
+    class Skill
+  }
+
+  namespace Meta {
+    enum SKILL_CATEGOLY {
+      FirstSkill,
+      SecondSkill,
+      ThirdSkill,
+      FourthSkill,
+      FifthSkill
+    }
+
+    enum EXCEPTION_TYPE {
+      SkillUsingException,
+      SkillCoolTimeException
+    }
+  }
+
+  namespace GameSystem.PlayerBehaviour {
+    interface IDeadWatch {
+      +IsDead() : bool
+    }
+
+    class PlayerUpdater {
+      -Update()
+    }
+
+    class PlayerHandler {
+      +AllowMove()
+      +DisallowMove()
+      +UseSkill(Meta.SKILL_CATEGOLY)
+      +Kill()
+    }
+
+    class PlayerMove {
+      -FixedUpdate()
+      +AllowMove()
+      +DisallowMove()
+    }
+
+    class Die {
+      +Execute()
+    }
+
+    namespace Skill {
+      class SkillManager {
+        -m_PlayerProfile : Profile.PlayerProfile
+        -CanUseSkill(Meta.SKILL_CATEGOLY)
+        -ConsumeCost(Meta.SKILL_CATEGOLY)
+        +UseSkill(Meta.SKILL_CATEGOLY) : bool
+        +Initialize()
+      }
+
+      abstract class UseSkillCommandBase {
+        -m_Skill : DB.Skill
+        +RemainingUsingTimeSec() : float
+        +RemainingCoolTimeSec() : float
+        -Update()
+        +Initialize()
+        +Execute()
+      }
+
+      class ConcreteSkillCommand {
+        +Execute()
+      }
+    }
+  }
+}
+
+
+
+
+
+
+namespace EllGames.GF {
+  namespace GameSystem.PlayerBehaviour {
+    PlayerUpdater -> IDeadWatch
+    PlayerUpdater -> PlayerHandler
+    PlayerHandler --> PlayerMove
+    PlayerHandler --> Die
+    PlayerHandler -> GameSystem.PlayerBehaviour.Skill.SkillManager
+
+    namespace Skill {
+      SkillManager -> UseSkillCommandBase
+      SkillManager -> EllGames.GF.Exception.ExceptionHandler
+      UseSkillCommandBase <|. ConcreteSkillCommand
+      SkillManager -> GameSystem.PlayerBehaviour.IDeadWatch
+      SkillManager *- EllGames.GF.Profile.PlayerProfile
+      UseSkillCommandBase *- EllGames.GF.DB.Skill
+    }
+  }
+}
+
+@enduml
