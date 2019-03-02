@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c90555f18b88547a6a561d87742941, type: 3}
+  m_Name: HellArea
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: fa315793935aaf44a9c50fd287701ac7, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_SystemProfile
+      Entry: 10
+      Data: 0
+    - Name: m_Icon
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Jap
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Eng
+      Entry: 6
+      Data: 
+    - Name: m_Description
+      Entry: 6
+      Data: 
+    - Name: m_AddingDamage
+      Entry: 3
+      Data: 0
+    - Name: m_CostFP
+      Entry: 3
+      Data: 0
+    - Name: m_UsingTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_CoolTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_Memo
+      Entry: 1
+      Data: "\u30D3\u30AE\u30CA\u30FC\u30E9\u30F3\u30AF\u3060\u3068\u4F7F\u3063\u3066\u3044\u308B\u9593\u306F\u7121\u6575\u30DE\u30EA\u30AA\u72B6\u614B\u3002"

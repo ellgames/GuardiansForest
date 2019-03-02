@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c90555f18b88547a6a561d87742941, type: 3}
+  m_Name: IlusionSlash
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_SystemProfile
+      Entry: 6
+      Data: 
+    - Name: m_Icon
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Jap
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Eng
+      Entry: 6
+      Data: 
+    - Name: m_Description
+      Entry: 6
+      Data: 
+    - Name: m_AddingDamage
+      Entry: 3
+      Data: 0
+    - Name: m_CostFP
+      Entry: 3
+      Data: 0
+    - Name: m_UsingTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_CoolTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_Memo
+      Entry: 1
+      Data: "\u5927\u578B\u306E\u6575\u306E\u61D0\u306B\u5165\u3063\u3066\u4F7F\u3063\u3066\u3088\u3046\u3084\u304F\u307E\u3068\u3082\u306A\u30C0\u30E1\u30FC\u30B8\u304C\u5165\u308B\u3002\nMB\u304C\u521D\u5FC3\u8005\u5411\u304D\u3067\u306A\u3044\u7406\u7531\u306E1\u3064\u3002"

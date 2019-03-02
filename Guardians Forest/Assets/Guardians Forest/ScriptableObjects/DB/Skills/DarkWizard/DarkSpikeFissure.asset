@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c90555f18b88547a6a561d87742941, type: 3}
+  m_Name: DarkSpikeFissure
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_SystemProfile
+      Entry: 6
+      Data: 
+    - Name: m_Icon
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Jap
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Eng
+      Entry: 6
+      Data: 
+    - Name: m_Description
+      Entry: 6
+      Data: 
+    - Name: m_AddingDamage
+      Entry: 3
+      Data: 0
+    - Name: m_CostFP
+      Entry: 3
+      Data: 0
+    - Name: m_UsingTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_CoolTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_Memo
+      Entry: 1
+      Data: "\u5A01\u529B\u306F\u9AD8\u3044\u304C\u56DE\u8EE2\u7387\u304C\u60AA\u304F\u30B3\u30B9\u30C8\u3082\u9AD8\u3044\u306E\u3067\u4E0A\u7D1A\u8005\u306F\u597D\u307E\u306A\u3044\u3002\nDarkBolt\u306E\u65B9\u304C\u597D\u307E\u308C\u308B\u3002"
