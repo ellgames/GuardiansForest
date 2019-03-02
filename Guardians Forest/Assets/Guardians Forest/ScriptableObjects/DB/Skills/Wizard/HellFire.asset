@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c90555f18b88547a6a561d87742941, type: 3}
+  m_Name: HellFire
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: fa315793935aaf44a9c50fd287701ac7, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_SystemProfile
+      Entry: 10
+      Data: 0
+    - Name: m_Icon
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Jap
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Eng
+      Entry: 6
+      Data: 
+    - Name: m_Description
+      Entry: 6
+      Data: 
+    - Name: m_AddingDamage
+      Entry: 3
+      Data: 0
+    - Name: m_CostFP
+      Entry: 3
+      Data: 0
+    - Name: m_UsingTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_CoolTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_Memo
+      Entry: 1
+      Data: "\u30DC\u30B9\u306B\u306F\u52B9\u679C\u7684\u3002\n\u3067\u3082PS\u304C\u3042\u308B\u306A\u3089DW\u306EDB\u9023\u5C04\u304BMB\u306EHS+DT\u30B3\u30F3\u30DC\u4F7F\u3046\u3079\u304D\u3002"

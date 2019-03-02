@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c90555f18b88547a6a561d87742941, type: 3}
+  m_Name: DarkStigma
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_SystemProfile
+      Entry: 6
+      Data: 
+    - Name: m_Icon
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Jap
+      Entry: 6
+      Data: 
+    - Name: m_SkillName_Eng
+      Entry: 6
+      Data: 
+    - Name: m_Description
+      Entry: 6
+      Data: 
+    - Name: m_AddingDamage
+      Entry: 3
+      Data: 0
+    - Name: m_CostFP
+      Entry: 3
+      Data: 0
+    - Name: m_UsingTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_CoolTimeSec
+      Entry: 4
+      Data: 0
+    - Name: m_Memo
+      Entry: 1
+      Data: "\u51FA\u304C\u901F\u3044\u305F\u3081\u3001\u4E0A\u7D1A\u8005\u304C\u597D\u3093\u3067\u4F7F\u3046\u3002\n\u57FA\u672C\u7684\u306BTA\u7D44\u306FDW\u306EDB\u3068DS\u3092\u30E1\u30A4\u30F3\u306B\u6226\u3046\u3002"

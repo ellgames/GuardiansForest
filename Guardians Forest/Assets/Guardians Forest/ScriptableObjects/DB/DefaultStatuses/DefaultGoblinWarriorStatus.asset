@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e7a13387eb16c4cb28ebde5670a686, type: 3}
+  m_Name: DefaultGoblinWarriorStatus
+  m_EditorClassIdentifier: Assembly-CSharp:EllGames.GF.DB.Actor:ActorStatus
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_ActorName
+      Entry: 1
+      Data: Goblin Warrior
+    - Name: m_IsBoss
+      Entry: 5
+      Data: false
+    - Name: m_MaxHP
+      Entry: 3
+      Data: 1000
+    - Name: m_MaxMP
+      Entry: 3
+      Data: 1000
+    - Name: m_MaxATK
+      Entry: 3
+      Data: 100
+    - Name: m_MaxDEF
+      Entry: 3
+      Data: 100
+    - Name: m_HP
+      Entry: 3
+      Data: 1000
+    - Name: m_MP
+      Entry: 3
+      Data: 1000
+    - Name: m_ATK
+      Entry: 3
+      Data: 1
+    - Name: m_DEF
+      Entry: 3
+      Data: 1
